@@ -1,0 +1,5 @@
+E:\Project\Lisate\Lishate.Config\bin\Debug\Lishate.Config.dll
+E:\Project\Lisate\Lishate.Config\bin\Debug\Lishate.Config.pdb
+E:\Project\Lisate\Lishate.Config\obj\Debug\Lishate.Config.csprojResolveAssemblyReference.cache
+E:\Project\Lisate\Lishate.Config\obj\Debug\Lishate.Config.dll
+E:\Project\Lisate\Lishate.Config\obj\Debug\Lishate.Config.pdb

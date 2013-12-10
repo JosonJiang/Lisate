@@ -1,0 +1,5 @@
+E:\Project\Lisate\Lishate.Basedata\bin\Debug\Lishate.Basedata.dll
+E:\Project\Lisate\Lishate.Basedata\bin\Debug\Lishate.Basedata.pdb
+E:\Project\Lisate\Lishate.Basedata\obj\Debug\Lishate.Basedata.csprojResolveAssemblyReference.cache
+E:\Project\Lisate\Lishate.Basedata\obj\Debug\Lishate.Basedata.dll
+E:\Project\Lisate\Lishate.Basedata\obj\Debug\Lishate.Basedata.pdb

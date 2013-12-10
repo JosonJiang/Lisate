@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D0E8F7C-ED6E-40AD-BBC5-FDD7F0EFB69C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lishate.Server</RootNamespace>
+    <AssemblyName>Lishate.Server</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ServerManage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lishate.Basedata\Lishate.Basedata.csproj">
+      <Project>{0b2acdab-d167-4761-8962-1b950af57607}</Project>
+      <Name>Lishate.Basedata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Config\Lishate.Config.csproj">
+      <Project>{6a36645a-b261-4c02-9fe3-c1c7c4165f22}</Project>
+      <Name>Lishate.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Data\Lishate.Data.csproj">
+      <Project>{873e3cef-fac4-4b64-b405-7c5a00b7bba3}</Project>
+      <Name>Lishate.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Log\Lishate.Log.csproj">
+      <Project>{83be6e9f-f1a8-4289-8f67-ba14b1ccac95}</Project>
+      <Name>Lishate.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Message.Parse\Lishate.Message.Parse.csproj">
+      <Project>{ebc700ab-289a-4876-877f-4760ad409d1c}</Project>
+      <Name>Lishate.Message.Parse</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Message\Lishate.Message.csproj">
+      <Project>{3ad7fd23-c9d9-4ded-a9c8-1466bba20eed}</Project>
+      <Name>Lishate.Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Net\Lishate.Net.csproj">
+      <Project>{a87fd9e2-a7f3-49b1-8759-8317efedb3bb}</Project>
+      <Name>Lishate.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Security\Lishate.Security.csproj">
+      <Project>{c4852744-fedb-4f58-98b4-26961981bcbb}</Project>
+      <Name>Lishate.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Syn\Lishate.Syn.csproj">
+      <Project>{48641666-3746-4af4-975e-5fc1f721cd3e}</Project>
+      <Name>Lishate.Syn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Utility\Lishate.Utility.csproj">
+      <Project>{e1370253-2342-4d44-8f3f-70ef82670895}</Project>
+      <Name>Lishate.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

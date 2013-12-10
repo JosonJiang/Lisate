@@ -1,0 +1,5 @@
+E:\Project\Lisate\Lishate.Syn\bin\Debug\Lishate.Syn.dll
+E:\Project\Lisate\Lishate.Syn\bin\Debug\Lishate.Syn.pdb
+E:\Project\Lisate\Lishate.Syn\obj\Debug\Lishate.Syn.dll
+E:\Project\Lisate\Lishate.Syn\obj\Debug\Lishate.Syn.pdb
+E:\Project\Lisate\Lishate.Syn\obj\Debug\Lishate.Syn.csprojResolveAssemblyReference.cache

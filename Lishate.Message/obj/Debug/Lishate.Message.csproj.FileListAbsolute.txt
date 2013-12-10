@@ -1,0 +1,15 @@
+E:\Project\Lisate\Lishate.Message\obj\Debug\Lishate.Message.csprojResolveAssemblyReference.cache
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Message.dll
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Message.pdb
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Log.dll
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Security.dll
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Utility.dll
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Log.pdb
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Security.pdb
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Utility.pdb
+E:\Project\Lisate\Lishate.Message\obj\Debug\Lishate.Message.dll
+E:\Project\Lisate\Lishate.Message\obj\Debug\Lishate.Message.pdb
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Basedata.dll
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Basedata.pdb
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Config.dll
+E:\Project\Lisate\Lishate.Message\bin\Debug\Lishate.Config.pdb

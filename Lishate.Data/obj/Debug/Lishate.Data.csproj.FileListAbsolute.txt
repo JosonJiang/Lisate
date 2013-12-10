@@ -1,0 +1,8 @@
+E:\Project\Lisate\Lishate.Data\obj\Debug\Lishate.Data.csprojResolveAssemblyReference.cache
+E:\Project\Lisate\Lishate.Data\bin\Debug\Lishate.Data.dll
+E:\Project\Lisate\Lishate.Data\bin\Debug\Lishate.Data.pdb
+E:\Project\Lisate\Lishate.Data\bin\Debug\System.Data.SQLite.dll
+E:\Project\Lisate\Lishate.Data\obj\Debug\Lishate.Data.dll
+E:\Project\Lisate\Lishate.Data\obj\Debug\Lishate.Data.pdb
+E:\Project\Lisate\Lishate.Data\bin\Debug\Lishate.Config.dll
+E:\Project\Lisate\Lishate.Data\bin\Debug\Lishate.Config.pdb
