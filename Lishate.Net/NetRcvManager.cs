@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Net;
 using System.Net.Sockets;
+using Lishate.Message;
 
 namespace Lishate.Net
 {
@@ -26,6 +27,28 @@ namespace Lishate.Net
             _serverClient = uc;
         }
 
+        /*
+        public void Start()
+        {
+            _serverClient.BeginReceive(new AsyncCallback(AsyEndRecive), _serverClient);
+        }
 
+        private void AsyEndRecive(IAsyncResult iar)
+        {
+            IPEndPoint ipp = new IPEndPoint(IPAddress.Any, 0); 
+            byte[] buf = _serverClient.EndReceive(iar, ref ipp);
+            _serverClient.BeginReceive(new AsyncCallback(AsyEndRecive), _serverClient);
+            if (BaseMessage.CheckIsMessage(buf, 0))
+            {
+                BaseMessage bm = new BaseMessage();
+                bm.SetupBuf(buf, 0);
+                IpMessage im = new IpMessage();
+                im.Msg = bm;
+                im.EndPoint = ipp;
+                MessageInstance.getInstance().RecvList.Add(im);
+            }
+            
+        }
+         * */
     }
 }

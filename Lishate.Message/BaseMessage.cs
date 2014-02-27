@@ -33,9 +33,9 @@ namespace Lishate.Message
             {
                 if (buf[index + GobalDef.BASE_MSG_LENGTH_INDEX] < 128 && buf[index + GobalDef.BASE_MSG_LENGTH_INDEX] > 0)
                 {
-                    if (buf[index + buf[index + GobalDef.BASE_MSG_LENGTH_INDEX]] == GobalDef.BASE_MSG_END_VALUE)
+                    if (buf[index + buf[index + GobalDef.BASE_MSG_LENGTH_INDEX] - 1] == GobalDef.BASE_MSG_END_VALUE)
                     {
-                        if (GetCheckSum(buf, index) == buf[index + buf[index + GobalDef.BASE_MSG_LENGTH_INDEX - 1]])
+                        if (GetCheckSum(buf, index) == buf[index + buf[index + GobalDef.BASE_MSG_LENGTH_INDEX] - 2])
                         {
                             return true;
                         }
@@ -164,7 +164,7 @@ namespace Lishate.Message
             }
             _xpp.Src_1 = (byte)(_seq & 0xFF);
             _xpp.Src_2 = (byte)(_seq >> 8 & 0xFF);
-            Lishate.Message.Utility.SetXorSec(Seq, _content, GobalDef.BASE_MSG_SEQ_INDEX, SecurityFactory.XorSec);
+            Lishate.Message.Utility.SetXorSec(_content, GobalDef.BASE_MSG_SEQ_INDEX, SecurityFactory.XorSec,_xpp);
             _xpp.Src_1 = _ftType;
             _xpp.Src_2 = (byte)Lishate.Security.Utility.GlobalRandon.Next(255);
             Lishate.Message.Utility.SetXorSec(_content, GobalDef.BASE_MSG_FTTYPE_INDEX, SecurityFactory.XorSec,_xpp);

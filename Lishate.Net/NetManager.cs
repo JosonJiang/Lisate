@@ -74,7 +74,7 @@ namespace Lishate.Net
         private UdpClient _serverClient;
         private NetSendManager _nsm;
         private NetRcvManager _nrm;
-        private int _serverPort = 5000;
+        private int _serverPort = 12188;
 
         public int ServerPort
         {
@@ -204,6 +204,12 @@ namespace Lishate.Net
                     Log.Log.WriteErrorLog(e.Message);
                     Log.Log.WriteErrorLog(e.StackTrace);
                 }
+                Log.Log.WriteErrorLog("recv msg length is: " + msg.Length);
+                for (int i = 0; i < msg.Length; i++)
+                {
+                    Log.Log.WriteErrorLog("index " + i + " " + msg[i].ToString("X"));
+                }
+
                 BaseMessage bm = MessageFactroy.GetMesssage(msg, 0);
                 if (bm != null)
                 {

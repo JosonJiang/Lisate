@@ -40,9 +40,11 @@ namespace Lishate.Data
                 NameValueCollection nc = (NameValueCollection)ConfigurationSettings.GetConfig(_ConfigName);
                 int.TryParse(nc.Get(_DbType), out _db_type);
                 _connectString = nc.Get(_ConnectString);
-                nc = (NameValueCollection)ConfigurationSettings.GetConfig("Net");
+                /*
+                nc = (NameValueCollection)ConfigurationSettings.GetConfig(_ConfigName);
                 int i = 0;
                 i++;
+                 * */
             }
             catch (Exception e)
             {

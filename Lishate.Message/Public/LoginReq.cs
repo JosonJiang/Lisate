@@ -9,6 +9,9 @@ namespace Lishate.Message.Public
         public LoginReq()
         {
             Length = GobalDef.BASE_MSG_REQ_LENGTH + 4;
+            MCommand = GobalDef.COMMAND_MTYPE_PUBLIC;
+            SCommand = GobalDef.COMMAND_STYPE_PUBLIC_LOGIN;
+            Req = GobalDef.BASE_MSG_FT_REQ;
         }
 
         public override void PacketBuf()

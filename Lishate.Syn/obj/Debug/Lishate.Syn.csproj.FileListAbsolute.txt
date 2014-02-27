@@ -3,3 +3,7 @@ E:\Project\Lisate\Lishate.Syn\bin\Debug\Lishate.Syn.pdb
 E:\Project\Lisate\Lishate.Syn\obj\Debug\Lishate.Syn.dll
 E:\Project\Lisate\Lishate.Syn\obj\Debug\Lishate.Syn.pdb
 E:\Project\Lisate\Lishate.Syn\obj\Debug\Lishate.Syn.csprojResolveAssemblyReference.cache
+E:\Project\Lisate\Lishate.Syn\bin\Debug\Lishate.Config.dll
+E:\Project\Lisate\Lishate.Syn\bin\Debug\Lishate.Log.dll
+E:\Project\Lisate\Lishate.Syn\bin\Debug\Lishate.Config.pdb
+E:\Project\Lisate\Lishate.Syn\bin\Debug\Lishate.Log.pdb

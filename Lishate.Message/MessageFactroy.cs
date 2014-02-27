@@ -43,6 +43,18 @@ namespace Lishate.Message
                         bm.SetupBuf(buf, index);
                     }
                     break;
+                case GobalDef.COMMAND_STYPE_PUBLIC_GETSERVER:
+                    if (_ftType == GobalDef.BASE_MSG_FT_REQ)
+                    {
+                        bm = new GetServerReq();
+                        bm.SetupBuf(buf, index);
+                    }
+                    else if (_ftType == GobalDef.BASE_MSG_FT_RCV)
+                    {
+                        bm = new GetServerRcv();
+                        bm.SetupBuf(buf, index);
+                    }
+                    break;
             }
             return bm;
         }

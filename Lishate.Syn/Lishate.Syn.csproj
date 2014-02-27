@@ -35,12 +35,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SynGoablConfig.cs" />
     <Compile Include="SynBigMsg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SynItemMsg.cs" />
     <Compile Include="SynManager.cs" />
     <Compile Include="SynRcvClient.cs" />
     <Compile Include="SynSendClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lishate.Config\Lishate.Config.csproj">
+      <Project>{6a36645a-b261-4c02-9fe3-c1c7c4165f22}</Project>
+      <Name>Lishate.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Log\Lishate.Log.csproj">
+      <Project>{83be6e9f-f1a8-4289-8f67-ba14b1ccac95}</Project>
+      <Name>Lishate.Log</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -13,6 +13,8 @@ namespace Lishate.Message
         public const byte COMMAND_MTYPE_PUBLIC = 0x00;
         public const byte COMMAND_STYPE_PUBLIC_LOGIN = 0x01;
         public const byte COMMAND_STYPE_PUBLIC_CHECK_TIME = 0x07;
+        public const byte COMMAND_STYPE_PUBLIC_GETSERVER = 0x04;
+        public const byte COMMAND_STYPE_PUBLIC_PUTSERVER = 0x05;
 
         public const byte COMMAND_MTYPE_SOCKET = 0x01;
         public const byte COMMAND_STYPE_SOCKET_OPEN = 0x01;

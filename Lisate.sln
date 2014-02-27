@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lishate.Config", "Lishate.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lishate.Server", "Lishate.Server\Lishate.Server.csproj", "{8D0E8F7C-ED6E-40AD-BBC5-FDD7F0EFB69C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lishate.ConsoleApp", "Lishate.ConsoleApp\Lishate.ConsoleApp.csproj", "{361F220A-54C4-4206-A7C5-5EF2C924CE7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{8D0E8F7C-ED6E-40AD-BBC5-FDD7F0EFB69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D0E8F7C-ED6E-40AD-BBC5-FDD7F0EFB69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D0E8F7C-ED6E-40AD-BBC5-FDD7F0EFB69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361F220A-54C4-4206-A7C5-5EF2C924CE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361F220A-54C4-4206-A7C5-5EF2C924CE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361F220A-54C4-4206-A7C5-5EF2C924CE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361F220A-54C4-4206-A7C5-5EF2C924CE7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -64,6 +64,7 @@ namespace Lishate.Net
         private long _lastTicks = DateTime.Now.Ticks;
         private int _lastHasSize = 0;
         private int _flag = 0;
+        private int _isSend = 0;
 
         private bool canSend(int size)
         {
@@ -93,10 +94,15 @@ namespace Lishate.Net
                     {
                         _serverUdp.Send(im.Msg.Content, im.Msg.Length, im.EndPoint);
                         _lastHasSize = _lastHasSize + im.Msg.Length + 42;
+                        _isSend = 1;
                     }
                     else
                     {
-                        _lastTicks = DateTime.Now.Ticks;
+                        if (_isSend == 1)
+                        {
+                            _lastTicks = DateTime.Now.Ticks;
+                        }
+                        _isSend = 0;
                         Thread.Sleep(1);
                         _lastHasSize = 0;
                     }

@@ -45,6 +45,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Public\CheckTimeRcv.cs" />
     <Compile Include="Public\CheckTimeReq.cs" />
+    <Compile Include="Public\GetServerRcv.cs" />
+    <Compile Include="Public\GetServerReq.cs" />
     <Compile Include="Public\LoginRcv.cs" />
     <Compile Include="Public\LoginReq.cs" />
     <Compile Include="Socket\SocketGetStatueRcv.cs" />
@@ -58,6 +60,10 @@
     <ProjectReference Include="..\Lishate.Basedata\Lishate.Basedata.csproj">
       <Project>{0b2acdab-d167-4761-8962-1b950af57607}</Project>
       <Name>Lishate.Basedata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lishate.Config\Lishate.Config.csproj">
+      <Project>{6a36645a-b261-4c02-9fe3-c1c7c4165f22}</Project>
+      <Name>Lishate.Config</Name>
     </ProjectReference>
     <ProjectReference Include="..\Lishate.Log\Lishate.Log.csproj">
       <Project>{83be6e9f-f1a8-4289-8f67-ba14b1ccac95}</Project>
